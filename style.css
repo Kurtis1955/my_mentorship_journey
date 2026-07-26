@@ -1,7 +1,47 @@
-a:hover{
-    color: red;
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 3rem;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+h1{
+    color: white;
+}
+ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
-h1:hover{
-    color: blue;
+li{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-size: 12px;
+}
+a:hover{
+    color: gold;
+    border-bottom: 1px solid gold;
+   
+}
+
+button{
+    background-color: goldenrod;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
 }
